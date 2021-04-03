@@ -25,3 +25,30 @@ body {
 .site-footer a:hover, .site-footer .btn:hover {
   color: #C0B9B1; 
 }
+
+.btn {
+  border-radius: 1;
+  border: none;
+  -webkit-transition: background-color ease-out 0.5s;
+  -moz-transition: background-color ease-out 0.5s;
+  -o-transition: background-color ease-out 0.5s;
+  transition: background-color ease-out 0.5s; 
+}
+  .btn:hover {
+    -webkit-transition: box-shadow ease-out 0.3s;
+    -moz-transition: box-shadow ease-out 0.3s;
+    -o-transition: box-shadow ease-out 0.3s;
+    transition: box-shadow ease-out 0.3s;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); 
+  }
+
+.introduction {
+  width: 98.7vw;
+  height: 90vh;
+  margin: auto;
+  /*background-image: url("../images/retirement-slider.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 20px;
+  -webkit-font-smoothing: antialiased; }
